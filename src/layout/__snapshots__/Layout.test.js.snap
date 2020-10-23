@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders consistently 1`] = `
+<DocumentFragment>
+  layout
+</DocumentFragment>
+`;
