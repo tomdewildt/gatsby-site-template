@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound renders consistently 1`] = `
+<DocumentFragment>
+  <main
+    class=""
+    id="404"
+  />
+</DocumentFragment>
+`;
