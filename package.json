@@ -57,6 +57,14 @@
             "lcov",
             "text"
         ],
+        "moduleNameMapper": {
+            "^gatsby-core-utils/(.*)$": "gatsby-core-utils/dist/$1",
+            "^gatsby-page-utils/(.*)$": "gatsby-page-utils/dist/$1",
+            "^gatsby-plugin-utils/(.*)$": [
+                "gatsby-plugin-utils/dist/$1",
+                "gatsby-plugin-utils/$1"
+            ]
+        },
         "setupFiles": [
             "<rootDir>/jest-loader.js"
         ],
@@ -73,7 +81,7 @@
             "^.+\\.(js|jsx)$": "<rootDir>/jest-preprocess.js"
         },
         "transformIgnorePatterns": [
-            "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+            "node_modules/(?!(gatsby|gatsby-script)/)"
         ],
         "watchPlugins": [
             "jest-watch-typeahead/filename",
