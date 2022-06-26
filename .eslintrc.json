@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es6": true,
+        "es2022": true,
         "jest": true
     },
     "extends": [
@@ -16,14 +16,13 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 2018,
+        "ecmaVersion": 13,
         "sourceType": "module"
     },
     "plugins": [
         "react",
         "react-hooks"
     ],
-    "parser": "babel-eslint",
     "rules": {
         "array-bracket-spacing": [
             "error",
@@ -72,6 +71,13 @@
             "error",
             "double",
             "avoid-escape"
+        ],
+        "react/function-component-definition": [
+            "error",
+            {
+                "namedComponents": "arrow-function",
+                "unnamedComponents": "arrow-function"
+            }
         ],
         "react/jsx-curly-spacing": [
             "error",
