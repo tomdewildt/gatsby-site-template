@@ -33,7 +33,6 @@
         "@testing-library/jest-dom": "5.16.2",
         "@testing-library/react": "12.1.2",
         "@testing-library/react-hooks": "7.0.2",
-        "babel-eslint": "10.1.0",
         "babel-jest": "27.5.1",
         "babel-preset-gatsby": "2.6.0",
         "eslint": "8.18.0",
