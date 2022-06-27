@@ -43,6 +43,7 @@
         "eslint-plugin-react-hooks": "4.6.0",
         "jest": "28.1.1",
         "jest-axe": "6.0.0",
+        "jest-environment-jsdom": "^28.1.1",
         "jest-styled-components": "7.0.8",
         "jest-watch-typeahead": "1.1.0"
     },
@@ -58,8 +59,8 @@
             "text"
         ],
         "moduleNameMapper": {
-            "^gatsby-core-utils/(.*)$": "gatsby-core-utils/dist/$1",
-            "^gatsby-page-utils/(.*)$": "gatsby-page-utils/dist/$1",
+            "^gatsby-core-utils/(.*)$": "gatsby-core-utils/$1",
+            "^gatsby-page-utils/(.*)$": "gatsby-page-utils/$1",
             "^gatsby-plugin-utils/(.*)$": [
                 "gatsby-plugin-utils/dist/$1",
                 "gatsby-plugin-utils/$1"
