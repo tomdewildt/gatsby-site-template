@@ -1,5 +1,5 @@
 # Gatsby Site Template
-[![Build](https://img.shields.io/github/workflow/status/tomdewildt/gatsby-site-template/ci/master)](https://github.com/tomdewildt/gatsby-site-template/actions?query=workflow%3Aci)
+[![Build](https://img.shields.io/github/actions/workflow/status/tomdewildt/gatsby-site-template/ci.yml?branch=master)](https://github.com/tomdewildt/gatsby-site-template/actions/workflows/ci.yml)
 [![Coverage](https://img.shields.io/codecov/c/gh/tomdewildt/gatsby-site-template)](https://codecov.io/gh/tomdewildt/gatsby-site-template)
 [![License](https://img.shields.io/github/license/tomdewildt/gatsby-site-template)](https://github.com/tomdewildt/gatsby-site-template/blob/master/LICENSE)
 
