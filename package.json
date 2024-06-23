@@ -11,7 +11,7 @@
         "lint": "eslint . --fix"
     },
     "dependencies": {
-        "gatsby": "5.13.3",
+        "gatsby": "5.13.6",
         "gatsby-plugin-manifest": "5.13.1",
         "gatsby-plugin-react-helmet": "6.13.1",
         "gatsby-plugin-robots-txt": "1.8.0",
@@ -34,7 +34,7 @@
         "@testing-library/react": "14.2.1",
         "@testing-library/react-hooks": "8.0.1",
         "babel-jest": "29.7.0",
-        "babel-preset-gatsby": "3.13.1",
+        "babel-preset-gatsby": "3.13.2",
         "eslint": "8.56.0",
         "eslint-config-airbnb": "19.0.4",
         "eslint-plugin-import": "2.29.1",
